@@ -1,0 +1,21 @@
+pipeline:
+  test:
+    image: ${IMAGE}
+    commands:
+      - ./test.sh ${IMAGE}
+
+
+matrix:
+  IMAGE:
+    - centos:centos6
+    - centos:centos7
+    - fedora:29
+    - fedora:30
+    - debian:stretch
+    - debian:buster
+    - ubuntu:18.04
+    - ubuntu:18.10
+    - ubuntu:19.04
+    - opensuse/leap:15.0
+    - opensuse/leap:15.1
+    - opensuse/leap:42.3
