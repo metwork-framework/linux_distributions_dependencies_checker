@@ -36,16 +36,27 @@ echo
 
 RES=0
 for DEP in $(cat list.txt); do
-    if test "${BACKEND}" = "yum"; then
-        OUTPUT=$( ( yum provides --quiet --noplugins "${DEP}" 2>&1) |grep -v ^Error )
-        test "${OUTPUT}" != ""
-        NOT_FOUND=$?
-    elif test "${BACKEND}" = "apt-get"; then
-        apt-file search "${DEP}" >/dev/null 2>&1
-        NOT_FOUND=$?
-    elif test "${BACKEND}" = "zypper"; then
-        zypper se --provides  "${DEP}" >/dev/null 2>&1
-        NOT_FOUND=$?
+    FOUND=0
+    for REP in /usr/lib64 /lib64 /usr/lib/x86_64-linux-gnu /lib/x86_64-linux-gnu; do
+        if test -f "${REP}/${DEP}"; then
+            FOUND=1
+            break
+        fi
+    done
+    if test "${FOUND}" = "0"; then
+        if test "${BACKEND}" = "yum"; then
+            OUTPUT=$( ( yum provides --quiet --noplugins "${DEP}" 2>&1) |grep -v ^Error )
+            test "${OUTPUT}" != ""
+            NOT_FOUND=$?
+        elif test "${BACKEND}" = "apt-get"; then
+            apt-file search "${DEP}" >/dev/null 2>&1
+            NOT_FOUND=$?
+        elif test "${BACKEND}" = "zypper"; then
+            zypper se --provides  "${DEP}" >/dev/null 2>&1
+            NOT_FOUND=$?
+        fi
+    else
+        NOT_FOUND=1
     fi
     if test "${NOT_FOUND}" != "0"; then
         echo "- Can't find: ${DEP} in ${IMAGE}"
