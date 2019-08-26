@@ -56,7 +56,7 @@ for DEP in $(cat list.txt); do
             NOT_FOUND=$?
         fi
     else
-        NOT_FOUND=1
+        NOT_FOUND=0
     fi
     if test "${NOT_FOUND}" != "0"; then
         echo "- Can't find: ${DEP} in ${IMAGE}"
