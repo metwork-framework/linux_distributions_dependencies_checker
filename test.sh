@@ -12,6 +12,8 @@ elif test "${BASE}" = "centos"; then
     BACKEND="yum"
 elif test "${BASE}" = "opensuse/leap"; then
     BACKEND="zypper"
+elif test "${BASE}" = "mageia"; then
+    BACKEND="urpmf"
 else
     echo "ERROR: can't find a backend for ${BASE}"
     exit 1
@@ -53,6 +55,10 @@ for DEP in $(cat list.txt); do
             NOT_FOUND=$?
         elif test "${BACKEND}" = "zypper"; then
             zypper se --provides  "${DEP}" >/dev/null 2>&1
+            NOT_FOUND=$?
+        elif test "${BACKEND}" = "urpmf"; then
+            OUTPUT=$(urpmf "${DEP}" 2>&1)
+            test "${OUTPUT}" != ""
             NOT_FOUND=$?
         fi
     else
