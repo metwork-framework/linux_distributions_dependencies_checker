@@ -51,3 +51,14 @@ libXi.so.6
 libSM.so.6
 libICE.so.6
 libgpm.so.2
+libatlas.so.3 
+libcblas.so.3
+libf77blas.so.3
+liblapack.so.3
+libptcblas.so.3
+libptf77blas.so.3
+libgomp.so.1
+libgfortran.so.4
+libpango-1.0.so.0
+libpangocairo-1.0.so.0 
+libpangoft2-1.0.so.0
