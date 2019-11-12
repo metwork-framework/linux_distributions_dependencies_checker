@@ -12,6 +12,7 @@ matrix:
     - centos:centos8
     - fedora:29
     - fedora:30
+    - fedora:31
     - debian:stretch
     - debian:buster
     - ubuntu:18.04
