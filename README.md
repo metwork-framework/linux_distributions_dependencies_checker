@@ -6,6 +6,7 @@
 
 
 
+
 [![Drone CI](http://metwork-framework.org:8000/api/badges/metwork-framework/linux_distributions_dependencies_checker/status.svg)](http://metwork-framework.org:8000/metwork-framework/linux_distributions_dependencies_checker)
 [![Maintenance](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)]()
 
