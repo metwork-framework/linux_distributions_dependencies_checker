@@ -1,0 +1,35 @@
+name: test
+
+on:
+  push: {}
+  pull_request: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        container:
+          - centos:centos6
+          - centos:centos7
+          - centos:centos8
+          - fedora:30
+          - fedora:31
+          - fedora:32
+          - debian:stretch
+          - debian:buster
+          - ubuntu:18.04
+          - ubuntu:20.04
+          - ubuntu:20.10
+          - opensuse/leap:15.1
+          - opensuse/leap:15.2
+          - mageia:6
+          - mageia:7
+    container:
+      image: ${{ matrix.container }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v1  # we can't use @v2 because it's not compatible with centos6
+      - name: "test.sh"
+        run: |
+          ./test.sh ${{ matrix.container }}
