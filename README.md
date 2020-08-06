@@ -1,17 +1,14 @@
 # linux_distributions_dependencies_checker
 
-[//]: # (automatically generated from https://github.com/metwork-framework/resources/blob/master/cookiecutter/_%7B%7Bcookiecutter.repo%7D%7D/README.md)
+[//]: # (automatically generated from https://github.com/metwork-framework/github_organization_management/blob/master/common_files/README.md)
 
 **Status (master branch)**
-
 
 
 
 [![Drone CI](http://metwork-framework.org:8000/api/badges/metwork-framework/linux_distributions_dependencies_checker/status.svg)](http://metwork-framework.org:8000/metwork-framework/linux_distributions_dependencies_checker)
 [![Maintenance](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)]()
 
-
-[//]: # (TABLE_OF_CONTENTS_PLACEHOLDER)
 
 
 
@@ -24,11 +21,6 @@ You can find/set the list of Linux distributions in [.github/workflows/test.yml 
 must be available in public Docker Hub.
 
 You can find/set the list of system libraries to test in [list.txt file](list.txt) (without any PATH, just the base name).
-
-
-
-
-
 
 
 
