@@ -4,6 +4,7 @@
 ## [Unreleased]
 
 ### New Features
+- update fedora versions
 - add urpmf backend for mageia
 - add mageia
 
