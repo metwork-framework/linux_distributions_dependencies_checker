@@ -6,7 +6,7 @@
 
 
 
-[![Drone CI](http://metwork-framework.org:8000/api/badges/metwork-framework/linux_distributions_dependencies_checker/status.svg)](http://metwork-framework.org:8000/metwork-framework/linux_distributions_dependencies_checker)
+[![GitHub CI](https://github.com/metwork-framework/linux_distributions_dependencies_checker/workflows/CI/badge.svg?branch=master)](https://github.com/metwork-framework/linux_distributions_dependencies_checker/actions?query=workflow%3ACI&branch=master)
 [![Maintenance](https://github.com/metwork-framework/resources/blob/master/badges/maintained.svg)]()
 
 
