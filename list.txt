@@ -1,3 +1,5 @@
+liblzma.so.0
+libgdbm.so.2
 libbz2.so.1
 libc.so.6
 libcrypt.so.1
