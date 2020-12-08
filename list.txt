@@ -1,3 +1,10 @@
+libatlas.so.3 
+libcblas.so.3
+libf77blas.so.3
+liblapack.so.3
+libptcblas.so.3
+libptf77blas.so.3
+libgfortran.so.4
 libacl.so.1
 libasound.so.2
 libattr.so.1
