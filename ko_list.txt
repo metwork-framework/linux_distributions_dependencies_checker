@@ -1,0 +1,2 @@
+libgdbm.so.2
+liblzma.so.0
