@@ -1,4 +1,3 @@
-libcrypto.so.10
 libdw.so.1
 libform.so.5
 libbz2.so.1
