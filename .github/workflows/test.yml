@@ -16,7 +16,6 @@ jobs:
           - fedora:32
           - fedora:33
           - fedora:34
-          - debian:buster
           - ubuntu:18.04
           - ubuntu:20.04
           - ubuntu:20.10
