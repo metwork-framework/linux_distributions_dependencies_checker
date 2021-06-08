@@ -13,6 +13,7 @@ jobs:
           - centos:centos6
           - centos:centos7
           - centos:centos8
+          - debian:buster
           - fedora:32
           - fedora:33
           - fedora:34
