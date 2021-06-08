@@ -13,6 +13,7 @@ libform.so.5
 libfreebl3.so
 libfreetype.so.6
 libgcc_s.so.1
+libgfortran.so.5
 libgomp.so.1
 libgpm.so.2
 libICE.so.6
