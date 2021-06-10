@@ -1,3 +1,5 @@
+libxcb-shape.so.0
+libxcb-xfixes.so.0
 libacl.so.1
 libasound.so.2
 libattr.so.1
