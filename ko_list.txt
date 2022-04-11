@@ -1,8 +1,2 @@
-libatlas.so.3 
-libcblas.so.3
-libf77blas.so.3
-libgdbm.so.2
-libgfortran.so.4
-libptcblas.so.3
-libptf77blas.so.3
-liblzma.so.0
+libhogweed.so.4 #dependency of libgnutls.so.30 (not a direct dependency)
+libnettle.so.6 #dependency of libgnutls.so.30 (not a direct dependency)

@@ -10,7 +10,6 @@ libgmp.so.10
 libgnutls.so.30
 libgssapi_krb5.so.2
 libgthread-2.0.so.0
-libhogweed.so.4
 libidn2.so.0
 libjbig.so.2.1
 libk5crypto.so.3
@@ -19,7 +18,6 @@ libkrb5.so.3
 libkrb5support.so.0
 liblzma.so.5
 libncursesw.so.6
-libnettle.so.6
 libnghttp2.so.14
 libonig.so.5
 libopenjp2.so.7
