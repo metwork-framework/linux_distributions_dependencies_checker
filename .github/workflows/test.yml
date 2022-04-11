@@ -13,6 +13,8 @@ jobs:
         container:
           - rockylinux:8
           - debian:buster
+          - debian:bullseye
+          - debian:sid
           - fedora:29
           - fedora:30
           - fedora:31
@@ -22,7 +24,6 @@ jobs:
           - fedora:35
           - fedora:36
           - fedora:37
-          - ubuntu:18.04
           - ubuntu:20.04
           - ubuntu:21.10
           - ubuntu:22.04
@@ -34,7 +35,7 @@ jobs:
       image: ${{ matrix.container }}
     steps:
       - name: checkout
-        uses: actions/checkout@v1  # we can't use @v2 because it's not compatible with centos6
+        uses: actions/checkout@v2
       - name: "test.sh"
         run: |
           ./test.sh ${{ matrix.container }}
