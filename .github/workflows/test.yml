@@ -35,7 +35,7 @@ jobs:
       image: ${{ matrix.container }}
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v1
       - name: "test.sh"
         run: |
           ./test.sh ${{ matrix.container }}
