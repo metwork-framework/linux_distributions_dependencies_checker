@@ -1,2 +1,3 @@
 libhogweed.so.4 #dependency of libgnutls.so.30 (not a direct dependency)
 libnettle.so.6 #dependency of libgnutls.so.30 (not a direct dependency)
+libjbig.so.2.1 #dependency of libtiff.so.5 (not a direct dependency)
