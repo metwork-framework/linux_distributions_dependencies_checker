@@ -14,6 +14,8 @@ jobs:
           - centos:centos7
           - rockylinux:8
           - debian:buster
+          - debian:bullseye
+          - debian:sid
           - fedora:29
           - fedora:30
           - fedora:31
