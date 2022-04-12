@@ -36,6 +36,8 @@ libkeyutils.so.1
 libkrb5.so.3
 libkrb5support.so.0
 liblapack.so.3
+liblber-2.4.so.2
+libldap_r-2.4.so.2
 liblzma.so.5
 libmagic.so.1
 libm.so.6
@@ -66,6 +68,7 @@ libpthread.so.0
 libquadmath.so.0
 libresolv.so.2
 librt.so.1
+libsasl2.so.3
 libselinux.so.1
 libsmime3.so
 libSM.so.6
