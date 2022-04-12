@@ -2,6 +2,9 @@ libacl.so.1
 libasound.so.2
 libattr.so.1
 libblkid.so.1
+libboost_filesystem.so.1.66.0
+libboost_program_options.so.1.66.0
+libboost_system.so.1.66.0
 libbz2.so.1
 libc.so.6
 libcairo.so.2
