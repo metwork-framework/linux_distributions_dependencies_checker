@@ -1,4 +1,3 @@
-libcuda.so.1
 libacl.so.1
 libasound.so.2
 libattr.so.1
