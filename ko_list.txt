@@ -1,3 +1,5 @@
+libcroco-0.6.so.3 #dependency of librsvg-2.so.2 (not a direct dependency)
+libgsl.so.23 #libgsl.so.25 since fedora 32
 libhogweed.so.4 #dependency of libgnutls.so.30 (not a direct dependency)
 libnettle.so.6 #dependency of libgnutls.so.30 (not a direct dependency)
 libjbig.so.2.1 #dependency of libtiff.so.5 (not a direct dependency)
