@@ -103,13 +103,13 @@ libssl.so.1.1
 libssl3.so
 libstdc++.so.6
 libtasn1.so.6
-libtcl8.6.so
+libtcl8.6.so()(64bit)
 libthai.so.0
 libthread_db.so.1
 libtiff.so.5
 libtinfo.so.6
 libtirpc.so.3
-libtk8.6.so
+libtk8.6.so()(64bit)
 libutil.so.1
 libuuid.so.1
 libunistring.so.2
