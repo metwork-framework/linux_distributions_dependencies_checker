@@ -20,7 +20,6 @@ libev.so.4
 libexpat.so.1
 libexslt.so.0
 libfontconfig.so.1
-libform.so.5
 libform.so.6
 libfreebl3.so
 libfreetype.so.6
@@ -61,9 +60,7 @@ liblzma.so.5
 libm.so.6
 libmagic.so.1
 libmount.so.1
-libncurses.so.5
 libncurses.so.6
-libncursesw.so.5
 libncursesw.so.6
 libnghttp2.so.14
 libnsl.so.1
@@ -74,7 +71,6 @@ libonig.so.5
 libopenblas.so.0
 libopenjp2.so.7
 libp11-kit.so.0
-libpanelw.so.5
 libpanelw.so.6
 libpango-1.0.so.0
 libpangocairo-1.0.so.0 
@@ -105,7 +101,6 @@ libtcl8.6.so
 libthai.so.0
 libthread_db.so.1
 libtiff.so.5
-libtinfo.so.5
 libtinfo.so.6
 libtirpc.so.3
 libtk8.6.so
