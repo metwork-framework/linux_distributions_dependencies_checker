@@ -23,16 +23,11 @@ jobs:
           - fedora:35
           - fedora:36
           - fedora:37
-          - mageia:8
     container:
       image: ${{ matrix.container }}
     steps:
       - name: checkout
-<<<<<<< HEAD
-        uses: actions/checkout@v1
-=======
         uses: actions/checkout@v6
->>>>>>> 33fd029 (build: update actions (#19))
       - name: "test.sh"
         run: |
           ./test.sh ${{ matrix.container }}
